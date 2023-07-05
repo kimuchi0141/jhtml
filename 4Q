@@ -1,0 +1,105 @@
+<html>
+<body>
+  <div align="center">
+  <h1>ポケモンクイズ</h1>
+  <form onsubmit="return checkAnswer(event, '4', 'result1')">
+    <p>次の画像に写っているポケモンの名前を次の4つの選択肢の中から正しいのを選んでくださいな。</p>
+    <img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/1f6395a1fc653171d23b21cd74dda820.png">
+  
+    <input type="radio" name="answer1" id="choice1_1" value="1">
+    <label for="choice1_1">モフコ</label>
+
+    <input type="radio" name="answer1" id="choice1_2" value="2">
+    <label for="choice1_2">ヤココ</label>
+
+    <input type="radio" name="answer1" id="choice1_3" value="3">
+    <label for="choice1_3">マココ</label>
+
+    <input type="radio" name="answer1" id="choice1_4" value="4">
+    <label for="choice1_4">モココ</label>
+
+    <input type="submit" value="回答する">
+    <p id="result1"></p>
+  </form>
+
+  <form onsubmit="return checkAnswer(event, '1', 'result2')">
+    <p>次の画像に写っているポケモンの名前を次の4つの選択肢の中から正しいのを選んでくださいな。</p>
+    <img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/5bb0cfd44302cd4df0c0c88d37457931.png">
+  
+    <input type="radio" name="answer2" id="choice2_1" value="1">
+    <label for="choice2_1">ピカチュウ</label>
+
+    <input type="radio" name="answer2" id="choice2_2" value="2">
+    <label for="choice2_2">ライチュウ</label>
+
+    <input type="radio" name="answer2" id="choice2_3" value="3">
+    <label for="choice2_3">アルチュウ</label>
+
+    <input type="radio" name="answer2" id="choice2_4" value="4">
+    <label for="choice2_4">アイチュウ</label>
+
+    <input type="submit" value="回答する">
+    <p id="result2"></p>
+  </form>
+
+  <form onsubmit="return checkAnswer(event, '3', 'result3')">
+    <p>次の画像に写っているポケモンの名前を次の4つの選択肢の中から正しいのを選んでくださいな。</p>
+    <img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/42062cbeca16839af3efe8a7d61ceb27a30f758b.png">
+  
+    <input type="radio" name="answer3" id="choice3_1" value="1">
+    <label for="choice3_1">グラードン</label>
+
+    <input type="radio" name="answer3" id="choice3_2" value="2">
+    <label for="choice3_2">ムラードン</label>
+
+    <input type="radio" name="answer3" id="choice3_3" value="3">
+    <label for="choice3_3">リザードン</label>
+
+    <input type="radio" name="answer3" id="choice3_4" value="4">
+    <label for="choice3_4">イヤードン</label>
+
+    <input type="submit" value="回答する">
+    <p id="result3"></p>
+  </form>
+
+  <form onsubmit="return checkAnswer(event, '2', 'result4')">
+    <p>次の画像に写っているポケモンの名前を次の4つの選択肢の中から正しいのを選んでくださいな。</p>
+    <img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/72c82f8be362d1b53ae308d706728411.png">
+  
+    <input type="radio" name="answer4" id="choice4_1" value="1">
+    <label for="choice4_1">ジェンガー</label>
+
+    <input type="radio" name="answer4" id="choice4_2" value="2">
+    <label for="choice4_2">ゲンガー</label>
+
+    <input type="radio" name="answer4" id="choice4_3" value="3">
+    <label for="choice4_3">シンガー</label>
+
+    <input type="radio" name="answer4" id="choice4_4" value="4">
+    <label for="choice4_4">コンガー</label>
+
+    <input type="submit" value="回答する">
+    <p id="result4"></p>
+  </form>
+
+  <script>
+    function checkAnswer(event, correctAnswer, resultId) {
+      event.preventDefault();
+
+      var selectedAnswer = event.target.elements.answer.value;
+      var resultElement = document.getElementById(resultId);
+
+      if (selectedAnswer === correctAnswer) {
+        resultElement.textContent = "正解です！";
+      } else {
+        resultElement.textContent = "不正解です。正解は、" + correctAnswer + "です。";
+      }
+
+      return false;
+    }
+  </script>
+</div>
+</body>
+</html>
+<h1><font size="4">現在バグ原因究明中</font></h1>
+<h2><font size="4">原因が分かり次第普及予定</font></h2>
