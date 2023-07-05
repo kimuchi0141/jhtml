@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+h1{
+   font-size:100px;
+   color:red;
+}
+h2{
+   font-size:50px;
+   color:white;
+}
+h3{
+   font-size:50px;
+   color:white;
+}
+h4{
+   font-size:50px;
+   color:white;
+}
+h5{
+   font-size:50px;
+   color:white;
+}
+h6{
+   font-size:50px;
+   color:white;
+}
+h7{
+   font-size:50px;
+   color:white;
+}
+h8{
+   font-size:50px;
+   color:white;
+}
+h9{
+   font-size:50px;
+   color:white;
+}
+h10{
+    font-size:50px;
+    color:white;
+}
+h11{
+    font-size:50px;
+    color:white;
+}
+p1{
+   font-size:15px;
+   color:white;
+}
+p2{
+   font-size:15px;
+   color:white;
+}
+p3{
+   font-size:15px;
+   color:white;
+}
+div2{
+    font-size:15px;
+    color:white;
+}
+.center-text {
+  text-align: center;
+}
+</style>
+</head>
+<body style="background-color:#696969;">
+<div align="center">
+        <h1 class="center-text">「推し」のポケモン</h1>
+        <h2>1. マッシブーン</h2><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0794"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/e33c2a5d1259d2da2c2199c3e7f382c2.png"></a><br>
+        <h3>2. カミツルギ</h3><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0798"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/6374300aa5b74bd6c4233c7cdfe8b811.png"></a><br>
+        <h4>3. アクジキング</h4><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0799"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/1688093e55210fea24da312e732e97ed.png"></a><br>
+        <h5>4. デンジュモク</h5><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0796"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/770f81ac7dd5f420e09409d00b258ea1.png"></a><br>
+        <h6>5. イベルタル</h6><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0717"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/772d1014be6ab7b8ff5bc7e5064cea97.png"></a><br>
+        <h7>6. ゼルネアス</h7><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0716"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/7f8bebb7129ca1d7c1f7031525081165.png"></a><br>
+        <h8>7. ソルガレオ</h8><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0791"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/68bb11cf1b97cfe502935d29e402d238.png"></a><br>
+        <h9>8. ルナアーラ</h9><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0792"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/1dae170a564a615f7e220419faf0b06e.png"></a><br>
+        <h10>9. ガブリアス</h10><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0445"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/e10f25b88cfd78ee822f46d234e4768f.png"></a><br>
+        <h11>10. ルカリオ</h11><br>
+        <a href="https://zukan.pokemon.co.jp/detail/0448"><img src="https://zukan.pokemon.co.jp/zukan-api/up/images/index/8037e4cc218b880b5552d4b91979d746.png"></a><br>
+        <p1 text->
+            もっとポケモンを知りたい方は<a href="https://zukan.pokemon.co.jp/" >ここをクリックしてください</a>(ポケモンずかん)
+        </p1><br>
+        <p2>
+            ポケモンクイズに挑戦したい方は<a href="ポケモンクイズ.html">こちらへ</a>現在バグが発生中
+        </p2><br>
+        <p3>
+            寺下先生へ<a href="作成中の葛藤.html">お詫び状</a>
+        </p3><br>
+        </div>
+        <footer>
+        <p>&copy; 2023 Pokémon. </p>
+        <p>Contact us:https://biz-japan.pokemon-support.com/hc/ja/requests/new</p>
+        </footer>
+        <div2><time>2023-6-28</time></div12>
+</body>
+</html>
